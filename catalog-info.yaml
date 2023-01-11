@@ -9,6 +9,15 @@ spec:
 ---
 
 apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: delivery
+  description: Everything about food delivery
+spec:
+  owner: delivery-team
+---
+
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: delivery-service
@@ -41,5 +50,5 @@ metadata:
 spec:
   type: service
   lifecycle: prod
-  owner: location-team
+  owner: delivery-team
   system: delivery
