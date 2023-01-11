@@ -1,4 +1,14 @@
 apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: delivery
+  description: Delivery System
+spec:
+  owner: delivery-team
+  domain: delivery
+---
+
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: delivery-service
