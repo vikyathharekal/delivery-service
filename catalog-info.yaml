@@ -4,7 +4,7 @@ metadata:
   tags:
     - java
     - food-ordering
-  name: delivery-service
+  name: deliver-service
   annotations:
     backstage.io/techdocs-ref: dir:.
 #     harness.io/project-url: https://qa.harness.io/ng/account/zEaak-FLS425IEO7OLzMUg/home/orgs/default/projects/vigneshproject/details
