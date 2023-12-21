@@ -4,6 +4,7 @@ metadata:
   tags:
     - java
     - food-ordering
+    - test
   name: delivery-service
   annotations:
     backstage.io/techdocs-ref: dir:.
